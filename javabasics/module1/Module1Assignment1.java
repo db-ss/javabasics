@@ -5,12 +5,12 @@ package javabasics.module1;
  * @email daniel.brashaw@smoothstack.com
 **/
 
-public class Assignment1 {
+public class Module1Assignment1 {
 
     // The number of spaces to delimit the offset center of the pattern
     private final int CENTER_LINE = 5;
     // The number of periods to write when breaking lines
-    private static int minPeriods = 9;
+    private int minPeriods = 9;
     
     private void run() {
 
@@ -72,7 +72,7 @@ public class Assignment1 {
 
     public static void main(String[] args) {
 
-        Assignment1 a1 = new Assignment1();
+        Module1Assignment1 a1 = new Module1Assignment1();
         a1.run();
     }
 }

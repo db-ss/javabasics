@@ -9,7 +9,7 @@ import java.util.Scanner;
  * @email daniel.brashaw@smoothstack.com
 **/
 
-public class Assignment2 {
+public class Module1Assignment2 {
 
     private final int MAX_GUESSES = 5;
     // the amount to be close enough to validated as succeeding
@@ -17,7 +17,7 @@ public class Assignment2 {
     private int guessesAllowed;
     private int answer;
 
-    public Assignment2() {
+    public Module1Assignment2() {
 
         this.guessesAllowed = MAX_GUESSES;
         Random r = new Random();
@@ -63,7 +63,7 @@ public class Assignment2 {
 
     public static void main(String[] args) {
 
-        Assignment2 a2 = new Assignment2();
+        Module1Assignment2 a2 = new Module1Assignment2();
         a2.run();
     }
 }
